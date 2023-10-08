@@ -1,8 +1,8 @@
 # multiclass-classifier
 
-<table border="1" class="dataframe">
+<table>
   <thead>
-    <tr style="text-align:right">
+    <tr>
       <th></th>
       <th>Outside Dry-Bulb Temperature</th>
       <th>Outside Dew-Point Temperature</th>
