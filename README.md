@@ -206,9 +206,8 @@ Now we normalize our data using StandardScaler from sklearn.preprocessing, let's
   </tbody>
 </table>
 
-<hr />
 As we can see, our data is so imbalanced, there are so many data in class 3 and just a few data in class 5, it's would have a bad effect on training process
 but we can balence these data by SMOTE Oversampling
 let's check out our data before Oversampling
-  </tbody>
-</table>
+
+![OverSampling Diagram](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/OverSampling_diagram.png)
