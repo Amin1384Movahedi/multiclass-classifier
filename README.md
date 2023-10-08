@@ -211,3 +211,9 @@ but we can balence these data by SMOTE Oversampling
 let's check out our data before Oversampling
 
 ![OverSampling Diagram](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/OverSampling_diagram.png)
+
+Now let's check out the correlation between variables and choose just two features for train our models at first and see the result, later we would choose more features from our dataset to train our machine learning and deep learning models
+
+![Data Correlation](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/corr.png)
+
+we choose 'Outside Dry-Bulb Temperature' and 'Direct Normal Solar' columns to train the models
