@@ -203,6 +203,8 @@ Now we normalize our data using StandardScaler from sklearn.preprocessing, let's
       <td>2.081532e+00</td>
       <td>9.776809e-01</td>
     </tr>
+  </tbody>
+</table>
 
 As we can see, our data is so imbalanced, there are so many data in class 3 and just a few data in class 5, it's would have a bad effect on training process
 but we can balence these data by SMOTE Oversampling
