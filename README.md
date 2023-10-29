@@ -246,6 +246,7 @@ here is the confusion matrix of trained random forest
 
 the Precision, Recall and f1_score of our trained model
 
+<pre>
 +-----------+--------------------+
 |  metrices |       values       |
 +-----------+--------------------+
@@ -253,6 +254,7 @@ the Precision, Recall and f1_score of our trained model
 |   Recall  | 0.5846153846153846 |
 |  f1_score | 0.5930002191540653 |
 +-----------+--------------------+
+</pre>
 
 ## it's turn for Naive Baysian machine learning model
 
@@ -262,6 +264,7 @@ the accuracy we get from training naive baysian is 0.476, it's actualy nat a goo
 
 as you see, the Precision and Recall is the lowest values we got till now
 
+<pre>
 +-----------+---------------------+
 |  metrices |        values       |
 +-----------+---------------------+
@@ -269,3 +272,4 @@ as you see, the Precision and Recall is the lowest values we got till now
 |   Recall  | 0.47692307692307695 |
 |  f1_score | 0.44413637644406884 |
 +-----------+---------------------+
+</pre>
