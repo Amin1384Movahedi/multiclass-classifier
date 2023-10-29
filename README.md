@@ -217,3 +217,53 @@ Now let's check out the correlation between variables and choose just two featur
 ![Data Correlation](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/corr.png)
 
 we choose 'Outside Dry-Bulb Temperature' and 'Direct Normal Solar' columns to train the models
+
+## Let's start training our machine learning models with KNN
+
+the result of training the KNN model with a hyper parameter tunner is the max accuracy of 0.676 and 5 n_neighbors
+
+There is the confusion matrix and calculated Precision, Recall and f1_score
+
+![KNN Confusion Matrix Heatmap]()
+
++-----------+--------------------+
+|  metrices |       values       |
++-----------+--------------------+
+| Precision | 0.7224175824175824 |
+|   Recall  | 0.6461538461538462 |
+|  f1_score | 0.6072415526776582 |
++-----------+--------------------+
+
+## Now it's time to train the Random Forest model
+
+the best accuracy of random forest model we got is 0.753 with 22 n_estimators
+
+here is the confusion matrix of trained random forest
+
+![RandomForest Confusion Matrix Heatmap]()
+
+the Precision, Recall and f1_score of our trained model
+
++-----------+--------------------+
+|  metrices |       values       |
++-----------+--------------------+
+| Precision | 0.6165445665445666 |
+|   Recall  | 0.5846153846153846 |
+|  f1_score | 0.5930002191540653 |
++-----------+--------------------+
+
+## it's turn for Naive Baysian machine learning model
+
+the accuracy we get from training naive baysian is 0.476, it's actualy nat a good result, naive baysian wasn't a optimal model for our dataset
+
+![Naive Baysian Confusion Matrix Heatmap]()
+
+as you see, the Precision and Recall is the lowest values we got till now
+
++-----------+---------------------+
+|  metrices |        values       |
++-----------+---------------------+
+| Precision |  0.5009594270463836 |
+|   Recall  | 0.47692307692307695 |
+|  f1_score | 0.44413637644406884 |
++-----------+---------------------+
