@@ -226,6 +226,7 @@ There is the confusion matrix and calculated Precision, Recall and f1_score
 
 ![KNN Confusion Matrix Heatmap]()
 
+<pre>
 +-----------+--------------------+
 |  metrices |       values       |
 +-----------+--------------------+
@@ -233,6 +234,7 @@ There is the confusion matrix and calculated Precision, Recall and f1_score
 |   Recall  | 0.6461538461538462 |
 |  f1_score | 0.6072415526776582 |
 +-----------+--------------------+
+</pre>
 
 ## Now it's time to train the Random Forest model
 
