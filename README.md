@@ -238,12 +238,13 @@ There is the confusion matrix and calculated Precision, Recall and f1_score
 
 ## Now it's time to train the Random Forest model
 
-the best accuracy of random forest model we got is 0.753 with 22 n_estimators
+the best accuracy of random forest model we got is 0.676 with 5 n_estimators
 
 here is the confusion matrix of trained random forest
 
 ![RandomForest Confusion Matrix Heatmap]()
 
+the maximum accuracy that we got as our result is 0.753
 the Precision, Recall and f1_score of our trained model
 
 <pre>
@@ -272,4 +273,101 @@ as you see, the Precision and Recall is the lowest values we got till now
 |   Recall  | 0.47692307692307695 |
 |  f1_score | 0.44413637644406884 |
 +-----------+---------------------+
+</pre>
+
+## The next machine learning algorithm is Decision Tree model
+
+we trained this model with our dataset and we get the 0.553 as our accuracy
+
+there is this model's confusion matrix
+
+![Decision Tree Confusion Matrix Heatmap]()
+
+and there is this model's Precision, Recall and f1-score
+
+<pre>
++-----------+--------------------+
+|  metrices |       values       |
++-----------+--------------------+
+| Precision | 0.7354071569456184 |
+|   Recall  | 0.7076923076923077 |
+|  f1_score | 0.7145262533568382 |
++-----------+--------------------+
+</pre>
+
+## Finally, it's turn for Neural Network
+
+at first, we build a model look like this...
+
+<pre>
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense (Dense)               (None, 10)                30        
+                                                                 
+ dense_1 (Dense)             (None, 64)                704       
+                                                                 
+ dense_2 (Dense)             (None, 128)               8320      
+                                                                 
+ dense_3 (Dense)             (None, 64)                8256      
+                                                                 
+ dense_4 (Dense)             (None, 5)                 325       
+                                                                 
+=================================================================
+Total params: 17635 (68.89 KB)
+Trainable params: 17635 (68.89 KB)
+Non-trainable params: 0 (0.00 Byte)
+_________________________________________________________________
+
+</pre>
+
+we trained our model with 100 epochs, but we get Test accuracy: 0.569, it's not good
+let's increase our features and check our model performance again.
+
+in this time, we build a model look like this...
+
+<pre>
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #   
+=================================================================
+ dense_17 (Dense)            (None, 5)                 45        
+                                                                 
+ dense_18 (Dense)            (None, 10)                70        
+                                                                 
+ dense_19 (Dense)            (None, 64)                768       
+                                                                 
+ dense_20 (Dense)            (None, 128)               8448      
+                                                                 
+ dense_21 (Dense)            (None, 256)               33280     
+                                                                 
+ dense_22 (Dense)            (None, 128)               33024     
+                                                                 
+ dense_23 (Dense)            (None, 10)                1300      
+                                                                 
+ dense_24 (Dense)            (None, 5)                 55        
+                                                                 
+=================================================================
+</pre>
+
+and we trained this model with 200 epochs and we got 0.830 as our accuracy result
+let's see this model performance
+
+![NN Model Loss Accuracy Graph]()
+
+there is our Neural Network confusion matrix
+
+![NN Confusion Matrix]()
+
+also we have the calculated Precision, Recall and f1_score of our trained model
+
+<pre>
++-----------+--------------------+
+|  metrices |       values       |
++-----------+--------------------+
+| Precision | 0.8387494858083093 |
+|   Recall  | 0.8307692307692308 |
+|  f1_score | 0.8303098192130451 |
++-----------+--------------------+
 </pre>
