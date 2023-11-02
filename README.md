@@ -3,8 +3,10 @@
 We have a dataset that collected by Mr.Parham ghadermazi 
 (Email: parham.ghadermazi@gmail.com)
 <br >
-Nima Rahmani from Kurdistan University wrote the machine learning codes
+Dr.Nima Rahmani from Kurdistan University wrote the machine learning codes
 (Email: nimarahmani2012@gmail.com)
+
+and finally myself, Mohammad Amin Movahedi Moghadam from Bahonar University in Kerman (Email: amin1384movahedi@zohomail.com) Computer Engineer Student
 
 this dataset have 9 columns, one of them is “Country” which is useless, seven columns which are our features and one last column “RES” which is the label of our dataset
 we would use machine learning models and deep neural network (DNN) and train them on feature to predict the labels.
