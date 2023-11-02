@@ -230,9 +230,9 @@ There is the confusion matrix and calculated Precision, Recall and f1_score
 +-----------+--------------------+
 |  metrices |       values       |
 +-----------+--------------------+
-| Precision | 0.7224175824175824 |
-|   Recall  | 0.6461538461538462 |
-|  f1_score | 0.6072415526776582 |
+| Precision | 0.6111402925882564 |
+|   Recall  | 0.6153846153846154 |
+|  f1_score | 0.6088187595879904 |
 +-----------+--------------------+
 </pre>
 
