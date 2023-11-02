@@ -354,7 +354,7 @@ _________________________________________________________________
 and we trained this model with 200 epochs and we got 0.830 as our accuracy result
 let's see this model performance
 
-![NN Model Accuracy Graph]()
+![NN Model Accuracy Graph](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/NN_Accuracy_Graph.png)
 
 there is our Neural Network confusion matrix
 
