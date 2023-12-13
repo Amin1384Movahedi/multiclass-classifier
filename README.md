@@ -215,11 +215,11 @@ As we can see, our data is so imbalanced, there are so many data in class 3 and 
 but we can balence these data by SMOTE Oversampling
 let's check out our data before Oversampling
 
-![OverSampling Diagram](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/OverSampling_diagram.png)
+![OverSampling Diagram](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/OverSampling_diagram.png)
 
 Now let's check out the correlation between variables and choose just two features for train our models at first and see the result, later we would choose more features from our dataset to train our machine learning and deep learning models
 
-![Data Correlation](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/corr.png)
+![Data Correlation](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/corr.png)
 
 we choose 'Outside Dry-Bulb Temperature' and 'Direct Normal Solar' columns to train the models
 
@@ -229,7 +229,7 @@ the result of training the KNN model with a hyper parameter tunner is the max ac
 
 There is the confusion matrix and calculated Precision, Recall and f1_score
 
-![KNN Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/KNN_Confusion_Matrix_Heatmap.png)
+![KNN Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/KNN_Confusion_Matrix_Heatmap.png)
 
 <pre>
 +-----------+--------------------+
@@ -247,7 +247,7 @@ the best accuracy of random forest model we got is 0.676 with 5 n_estimators
 
 here is the confusion matrix of trained random forest
 
-![RandomForest Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/RandomForest_Confusion_Matrix_Heatmap.png)
+![RandomForest Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/RandomForest_Confusion_Matrix_Heatmap.png)
 
 the maximum accuracy that we got as our result is 0.753
 the Precision, Recall and f1_score of our trained model
@@ -266,7 +266,7 @@ the Precision, Recall and f1_score of our trained model
 
 the accuracy we get from training naive baysian is 0.476, it's actualy nat a good result, naive baysian wasn't a optimal model for our dataset
 
-![Naive Baysian Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/Naive_Baysian_Confusion_Matrix_Heatmap.png)
+![Naive Baysian Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/Naive_Baysian_Confusion_Matrix_Heatmap.png)
 
 as you see, the Precision and Recall is the lowest values we got till now
 
@@ -286,7 +286,7 @@ we trained this model with our dataset and we get the 0.553 as our accuracy
 
 there is this model's confusion matrix
 
-![Decision Tree Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/Decision_Tree_Confusion_Matrix_Heatmap.png)
+![Decision Tree Confusion Matrix Heatmap](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/Decision_Tree_Confusion_Matrix_Heatmap.png)
 
 and there is this model's Precision, Recall and f1-score
 
@@ -359,11 +359,11 @@ _________________________________________________________________
 and we trained this model with 200 epochs and we got 0.830 as our accuracy result
 let's see this model performance
 
-![NN Model Accuracy Graph](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/NN_Accuracy_Graph.png)
+![NN Model Accuracy Graph](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/NN_Accuracy_Graph.png)
 
 there is our Neural Network confusion matrix
 
-![NN Confusion Matrix](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/NN_Confusion_Matrix_Heatmap.png)
+![NN Confusion Matrix](https://github.com/Amin1384Movahedi/multiclass-classifier/blob/main/assets/NN_Confusion_Matrix_Heatmap.png)
 
 also we have the calculated Precision, Recall and f1_score of our trained model
 
