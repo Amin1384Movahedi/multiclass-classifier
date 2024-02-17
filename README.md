@@ -1,19 +1,67 @@
-# multiclass-classifier
+<!-- Machine Learning Dataset for Renewable Energy Prediction -->
 
-We have a dataset that collected by Mr.Parham ghadermazi 
-(Email: parham.ghadermazi@gmail.com)
-<br >
-Dr.Nima Rahmani from Kurdistan University wrote the machine learning codes
-(Email: nimarahmani2012@gmail.com)
+<h1>Machine Learning Dataset for Renewable Energy Prediction</h1><br />
+<h2>Dataset Overview</h2>
 
-and finally myself, Mohammad Amin Movahedi Moghadam from Bahonar University in Kerman (Email: amin1384movahedi@zohomail.com) Computer Engineer Student
+<p>This dataset, curated by Mr. Parham Ghadermazi, includes valuable information for renewable energy prediction. Dr. Nima Rahmani, a machine learning expert from Kurdistan University, contributed the machine learning codes. Mohammad Amin Movahedi Moghadam, a Computer Engineering student from Bahonar University in Kerman, also played a role in its development.</p>
 
-this dataset have 9 columns, one of them is “Country” which is useless, seven columns which are our features and one last column “RES” which is the label of our dataset
-we would use machine learning models and deep neural network (DNN) and train them on feature to predict the labels.
+<p>The provided dataset contains information about various locations, including meteorological data and renewable energy sources (RES). Here is a breakdown of the columns in the dataset:</p>
 
-At first we drop the “Country” column and extract the “RES” column into a variable which is our labels.
+<ul>
+  <li><strong>Country:</strong> The name of the location or country.</li>
+  <li><strong>Outside Dry-Bulb Temperature:</strong> The ambient air temperature outside, measured in degrees Celsius.</li>
+  <li><strong>Outside Dew-Point Temperature:</strong> The temperature at which air becomes saturated with moisture, measured in degrees Celsius.</li>
+  <li><strong>Direct Normal Solar:</strong> The amount of solar radiation received directly from the sun, measured in unspecified units.</li>
+  <li><strong>Diffuse Horizontal Solar:</strong> The amount of solar radiation received indirectly from the sky, measured in unspecified units.</li>
+  <li><strong>Wind Speed:</strong> The speed of the wind, measured in meters per second.</li>
+  <li><strong>Wind Direction:</strong> The direction from which the wind is blowing, measured in degrees.</li>
+  <li><strong>Atmospheric Pressure:</strong> The pressure exerted by the atmosphere, measured in pascals.</li>
+  <li><strong>RES (Renewable Energy Sources):</strong> A numerical value indicating the level or type of renewable energy sources at the location.</li>
+</ul>
 
-Now we have to normalize our dataset, let’s see our dataset describe before normalize.
+<p>Each row in the dataset represents a specific location, and the corresponding values provide information about the local weather conditions and renewable energy potential. The dataset seems to include diverse locations from different countries, capturing a wide range of environmental factors that can influence renewable energy generation.</p>
+
+<h2>Contributors</h2>
+<ul>
+  <li><strong>Parham Ghadermazi</strong>
+    <ul>
+      <li>Email: <a href="mailto:parham.ghadermazi@gmail.com">parham.ghadermazi@gmail.com</a></li>
+    </ul>
+  </li>
+  <li><strong>Dr. Nima Rahmani</strong>
+    <ul>
+      <li>Email: <a href="mailto:nimarahmani2012@gmail.com">nimarahmani2012@gmail.com</a></li>
+    </ul>
+  </li>
+  <li><strong>Mohammad Amin Movahedi Moghadam</strong>
+    <ul>
+      <li>Email: <a href="mailto:amin1384movahedi@zohomail.com">amin1384movahedi@zohomail.com</a></li>
+      <li>Computer Engineer Student</li>
+    </ul>
+  </li>
+</ul>
+
+<h2>Dataset Details</h2>
+<ul>
+  <li><strong>Number of Columns:</strong> 9</li>
+  <li><strong>Features:</strong>
+    <ul>
+      <li>Outside Dry-Bulb Temperature</li>
+      <li>Outside Dew-Point Temperature</li>
+      <li>Direct Normal Solar</li>
+      <li>Diffuse Horizontal Solar</li>
+      <li>Wind Speed</li>
+      <li>Wind Direction</li>
+      <li>Atmospheric Pressure</li>
+    </ul>
+  </li>
+  <li><strong>Label:</strong> RES (Renewable Energy Sources)</li>
+</ul>
+
+<h2>Purpose</h2>
+<p>The dataset is designed to support the development of machine learning models and deep neural networks (DNN). By training these models on the provided features, we aim to predict the labels (RES) and gain insights into renewable energy potential based on various environmental factors.</p>
+
+<p>Now we have to normalize our dataset, let’s see our dataset describe before normalize.</p>
 
 <table>
   <thead>
@@ -376,3 +424,6 @@ also we have the calculated Precision, Recall and f1_score of our trained model
 |  f1_score | 0.8303098192130451 |
 +-----------+--------------------+
 </pre>
+
+<h2>Contact</h2>
+<p>For any inquiries or collaborations, feel free to reach out to the contributors via email. Your feedback and contributions are highly appreciated.</p>
